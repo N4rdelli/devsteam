@@ -1,0 +1,90 @@
+.card{
+  height: 463px;
+  width: 250px;
+  background: linear-gradient(180deg, #19587b 0%, #2b87ae 100%);
+  box-shadow: 10px 10px 14px rgb(0, 0, 0, 0.3);
+  transition-duration: 0.4s;
+}
+
+.card img {
+  height: 300px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.card h3{
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 15px 0px;
+}
+
+.box{
+  width: 225px;
+  height: 37px;
+  display: flex;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #344654;
+  margin-top: 15px 0px;
+}
+
+.desc{
+  background-color: #549300;
+  color: #beeb14;
+  width: 120px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+
+.preco{
+  margin-left: 101px;
+  text-align: end;
+}
+
+.preco p{
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  padding-right: 5px;
+  text-decoration: line-through;
+}
+
+.preco h4{
+  color: #beeb14;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-right: 5px;
+  margin: 0px;
+}
+
+.card button{
+  background: #549300;
+  width: 225px;
+  height: 38px;
+  border-radius: 10px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 10px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  transition-duration: 0.2s;
+}
+
+.card button:hover{
+  background-color: #5da500;
+  font-size: 17px;
+  box-shadow: 10px 10px 14px rgb(52, 70, 84, 0.3);
+}

@@ -1,0 +1,48 @@
+body {
+  background: #1b2838;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav {
+  top: 0;
+  width: 100%;
+}
+
+.promoContainer {
+  display: flex;
+  flex-direction: column;
+  width: 860px;
+  margin: 50px auto 100px auto;
+  justify-content: center;
+}
+
+.promoContainer h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 0px;
+}
+
+.promos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 860px;
+}
+
+.gamesContainer {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  max-width: 1000px;
+  margin: 100px auto;
+}
+
+.gamesContainer h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
