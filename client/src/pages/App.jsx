@@ -12,23 +12,47 @@ import img4 from "../assets/image4.png";
 const App = () => {
   return (
     <div className="body">
-      <div className="nav">
         <Menu></Menu>
-      </div>
+
       <div className="promoContainer">
         <h2>Promoções</h2>
         <div className="promos">
-          <Promo imgPromo={img1}></Promo>
-          <Promo imgPromo={img2}></Promo>
-          <Promo imgPromo={img3}></Promo>
+          <Promo
+          imgPromo={img1}
+          fullPrice={199.99}
+          discount={30}
+          />
+          <Promo
+          imgPromo={img2}
+          fullPrice={199.99}
+          discount={40}
+          />
+          <Promo
+          imgPromo={img3}
+          fullPrice={199.99}
+          discount={50}
+          />
         </div>
       </div>
       <div className="gamesContainer">
         <h2>Outros Jogos</h2>
-        <Games imgJogo={img4}></Games>
-        <Games imgJogo={img4}></Games>
-        <Games imgJogo={img4}></Games>
-        <Games imgJogo={img4}></Games>
+        <Games
+        imgJogo={img4}
+        title={"Conter Strike: Global Offensive"}
+        info={"Ação, Estratégia, Multijogador"}
+        price={99.90}
+        />
+        <Games
+        imgJogo={img4}
+        title={"Conter Strike: Global Offensive"}
+        info={"Ação, Estratégia, Multijogador"}
+        price={99.90}
+        /><Games
+        imgJogo={img4}
+        title={"Conter Strike: Global Offensive"}
+        info={"Ação, Estratégia, Multijogador"}
+        price={99.90}
+        />
       </div>
     </div>
   );

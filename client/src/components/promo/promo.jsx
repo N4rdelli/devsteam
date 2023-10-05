@@ -1,18 +1,20 @@
 import styles from "./promo.module.css";
 
-const Promo = ({imgPromo}) => {
+const Promo = ({ imgPromo, fullPrice, discount }) => {
   return (
     <div className={styles.card}>
       <img src={imgPromo} alt="" />
-      <h3> Oferta exclusiva </h3>
       <div className={styles.box}>
-        <div className={styles.desc}> <p>-50%</p> </div>
-        <div className={styles.preco}>
-            <p>R$199,80</p>
-            <h4>R$99,90</h4>
+        <h3> Oferta exclusiva </h3>
+        <div className={styles.info}>
+          <div className={styles.disc}>-{discount}%</div>
+          <div className={styles.price}>
+            <p>R${fullPrice}</p>
+            <h4>R${(fullPrice - fullPrice * (discount / 100)).toFixed(2)}</h4>
+          </div>
         </div>
+        <button>Adicionar ao carrinho</button>
       </div>
-      <button>Adicionar ao carrinho</button>
     </div>
   );
 };
