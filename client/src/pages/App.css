@@ -18,7 +18,8 @@ body {
 .promoContainer {
   display: flex;
   flex-direction: column;
-  width: 60em;
+  max-width: 60em;
+  height: fit-content;
   margin: 3em auto;
   justify-content: center;
 }
@@ -33,8 +34,9 @@ body {
 
 .promos{
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3em;
 }
 
 .gamesContainer {
@@ -51,3 +53,10 @@ body {
   color: #fff;
   text-transform: uppercase;
 }
+
+@media (max-width: 850px) {
+  .promos{
+    justify-content: center;
+  }
+}
+

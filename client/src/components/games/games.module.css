@@ -1,24 +1,23 @@
  .card {
   display: flex;
   flex-direction: row;
-  width: 860px;
-  height: 145px;
+  width: 54em;
+  height: 9.1em;
   background: #2983aa;
-  box-shadow: 10px 10px 14px rgb(0, 0, 0, 0.3);
-  margin-top: 1.5%;
-  margin-bottom: 1.5%;
+  box-shadow: 0.625em 0.625em 1em rgb(0, 0, 0, 0.3);
+  margin: 1em auto;
 }
 
 .card img {
-  width: 305px;
-  height: 145px;
+  width: 19.1em;
+  height: 9.1em;
 }
 
 .box {
   display: flex;
   flex-direction: column;
   align-content: stretch;
-  width: 555px;
+  width: 10em;
 }
 
 .box h3 {
@@ -26,36 +25,36 @@
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 20px 10px 5px 20px;
+  margin: 1.25em 0.625em 0.3125em 1.25em;
 }
 
 .box p {
   color: #c7c7c7;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 400;
   text-transform: capitalize;
-  margin: 0px 10px 10px 20px;
+  margin: 0em 0.625em 0.625em 1.25em;
 }
 
 .buy {
   display: flex;
   flex-direction: row;
-  width: 555px;
+  width: 10em;
   justify-content: space-between;
 }
 
 .buy h4 {
   color: #beeb14;
-  font-size: 32px;
+  font-size: 2em;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 10px 10px 10px 20px;
+  margin: 0.625em 0.625em 0.625em 1.25em;
 }
 
 .buy button {
   background: #549300;
   width: 222px;
-  height: 38px;
+  height: 2em;
   border-radius: 10px;
   border: none;
   padding: 0px;

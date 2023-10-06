@@ -1,5 +1,5 @@
 .card{
-  height: 30.75em;
+  height: 31em;
   width: 15.625em;
   background: linear-gradient(180deg, #19587b 0%, #2b87ae 100%);
   box-shadow: 0.75em 0.75em 1em rgb(0, 0, 0, 0.3);
@@ -8,12 +8,15 @@
 
 .card img{
   height: 18.75em;
-  width: 15.625em;
+  width: max-content;
   object-fit: cover;
 }
 
 .box{
-  padding: 1em;
+  padding: 1.3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .box h3 {
@@ -33,7 +36,7 @@
 .disc{
   background-color: #4C6B22;
   width: 3.6em;
-  height: 2em;
+  height: 2.3em;
   display: flex;
   align-items: center;
   color: #beeb14;
@@ -55,8 +58,8 @@
   color: #a8a8a8;
   font-size: 12px;
   font-weight: 400;
-  padding-right: 5px;
   text-decoration: line-through;
+  padding-right: 0.5em;
 }
 
 .price h4{
@@ -64,14 +67,14 @@
   font-size: 1em;
   font-weight: 700;
   text-transform: uppercase;
-  padding-right: 0.3em;
+  padding-right: 0.5em;
   margin: 0;
 }
 
 .card button{
   background: #549300;
-  width: 17em;
-  height: 2.3em;
+  width: 16.282em;
+  height: 3em;
   border: none;
   border-radius: 10px;
 
